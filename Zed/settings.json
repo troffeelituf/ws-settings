@@ -1,0 +1,64 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "buffer_font_family": ".ZedMono",
+  "format_on_save": "off",
+  "diagnostics_max_severity": "error",
+  "inlay_hints": {
+    "enabled": false
+  },
+  "completions": {
+    "words_min_length": 2
+  },
+  "preferred_line_length": 120,
+  "toolbar": {
+    "code_actions": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "diagnostics": {
+    "include_warnings": true
+  },
+  "vim_mode": true,
+  "icon_theme": "Catppuccin Mocha",
+  "terminal": {
+    "shell": {
+      "program": "nu.exe",
+    },
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "languages": {
+    "PHP": {
+      "language_servers": ["phpactor"],
+    },
+  },
+  "lsp": {
+    "lua-language-server": {
+      "binary": {
+        "path": "C:\\Users\\darkl\\AppData\\Local\\Zed\\lua-language-server-3.17.1-win32-arm64\\bin\\lua-language-server.exe",
+      },
+    },
+  },
+}
