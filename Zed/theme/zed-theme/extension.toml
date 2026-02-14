@@ -1,0 +1,7 @@
+id = "one-dart-lisper"
+name = "One Dark Lisper"
+version = "0.0.1"
+schema_version = 1
+authors = ["troffeelituf"]
+description = "One Dark Lisper"
+repository = "https://github.com/troffeelituf/ws-settings"
