@@ -35,5 +35,10 @@
     "bindings": {
       "alt-a": "outline_panel::ToggleFocus"
     }
+  },
+  {
+    "bindings": {
+      "alt-w": "pane::CloseActiveItem"
+    }
   }
 ]
